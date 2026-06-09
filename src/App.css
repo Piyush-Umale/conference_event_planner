@@ -40,11 +40,13 @@
   border: none;
   padding: 20px 40px;
   font-size: 19px;
-  border-radius: 5px;
+  border-radius: 200px;
+  transition: border-radius 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
 }
 
 .get-started-btn:hover {
+  border-radius: 5px;
   background-color: #c1974a;
 }
 
