@@ -91,7 +91,7 @@ const ConferenceEvent = () => {
  
           <h1>Venue Room Selection</h1>
         </div>
-        <div className="venue_selection">
+        {/* <div className="venue_selection">
           {venueItems.map((item, index) => (
             <div className="venue_main" key={index}>
               <div className="img">
@@ -143,7 +143,7 @@ const ConferenceEvent = () => {
       </div>
             </div>
           ))}
-        </div>
+        </div> */}
         <div className="total_cost">Total Cost: ${venueTotalCost}</div>
       </div>
 
